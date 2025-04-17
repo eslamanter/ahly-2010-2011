@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Ahly 2010-2011.exe" version="1.0.0.0" publicKeyToken="f7b580e6dd853ea4" language="ar-EG" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Ahly 2010-2011" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Ahly 2010-2011.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ahly 2010-2011.exe" size="196608">
+      <assemblyIdentity name="Ahly 2010-2011" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>n9lJkInvFq5d11NI4+Y2rigX9+U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Ahly 2010-2011.exe.config" size="1319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>84C5PgtM76tg05GJOSWZEhXHiKU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ESL-AED95360E96\ESL@M" issuerKeyHash="ee2487c79439e4650f4f591462ad27ec8faca70f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PbL/WoB0tX50Qe6fMioESuHL9RQ=</DigestValue></Reference></SignedInfo><SignatureValue>sJpoZpQ2IUhPZIc0jZndCOjNpSJ+X3RBULaQejA4kly5Z7AyULNKqoxt5KzCfr8vOE8rouK/rwAtGU3ajQlTIvIJ1N0V8VxOXRZi4m4NwDa+3viHpMkhARKu95EMLjiYIh2E65JH25pKxqsAI+zs9R4Vn5NLzOo44k/mIIprECs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xJ424nGs3eCK3Drml/HEFljK3aaCRY9NVsFNFeozmoz4CF471Ekmyw0TFwseq6Q8GrFMd7/wE7kheTuxTXZFPhgPLEXxlFmBLcILIawST7t2str08zW2SymWfkCqdzmdJVRxwO8QgSqOZVGmI11e8uroFW7C0lEqX0xRYukfNW8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="14f5cbe14a042a329fee41747eb574805affb23d" Description="" Url=""><as:assemblyIdentity name="Ahly 2010-2011.exe" version="1.0.0.0" publicKeyToken="f7b580e6dd853ea4" language="ar-EG" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ESL-AED95360E96\ESL@M</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FBKoFP5j0PEnReKG48FGlTfX9xw=</DigestValue></Reference></SignedInfo><SignatureValue>ak52cjm2RcRj1amRxdZ5ttVH6NbYeD7i3oJ9JtALwohwWdK7Or/OgqZknZOhgMFfzaeG23Jx2HzDB2KfZ+LKYyDJKcPBdsx6n89ZOEqNgoJlWmCoZq5rengBvn3hGJRH+0bS083bW4n3FHUizRgZLL4S4Q4fJkD8ekqLFORaOJ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xJ424nGs3eCK3Drml/HEFljK3aaCRY9NVsFNFeozmoz4CF471Ekmyw0TFwseq6Q8GrFMd7/wE7kheTuxTXZFPhgPLEXxlFmBLcILIawST7t2str08zW2SymWfkCqdzmdJVRxwO8QgSqOZVGmI11e8uroFW7C0lEqX0xRYukfNW8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAVKgAwIBAgIQSgLrmoFLspFFbiJ6kY6NpTAJBgUrDgMCHQUAMDUxMzAxBgNVBAMeKgBFAFMATAAtAEEARQBEADkANQAzADYAMABFADkANgBcAEUAUwBMAEAATTAeFw0xMTEyMjUxODI1NTJaFw0xMjEyMjUwMDI1NTJaMDUxMzAxBgNVBAMeKgBFAFMATAAtAEEARQBEADkANQAzADYAMABFADkANgBcAEUAUwBMAEAATTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxJ424nGs3eCK3Drml/HEFljK3aaCRY9NVsFNFeozmoz4CF471Ekmyw0TFwseq6Q8GrFMd7/wE7kheTuxTXZFPhgPLEXxlFmBLcILIawST7t2str08zW2SymWfkCqdzmdJVRxwO8QgSqOZVGmI11e8uroFW7C0lEqX0xRYukfNW8CAwEAATAJBgUrDgMCHQUAA4GBADitUKJ8Q9gRCRJVCg6J6x/StMnBV1IJ2A8vpmgBbM04QCIiB21eif7IlwXNOwZndPzCBsF/M3I0qimNq5hp+b+GtS5YFnON0ZmaSKtlDKna8Ab4+CTb5pPbBo0jGctg6pYN6ZKAAC+C4GgmhaeoEhI+L+mtgsQ031PswDkmv6yD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
